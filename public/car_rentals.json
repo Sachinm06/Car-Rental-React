@@ -1,0 +1,334 @@
+{
+  "car_rentals": [
+    {
+      "id": 1,
+      "name": "Wheels on Wheels",
+      "location": "456 Elm Street, Driverville, USA",
+      "photo": "https://example.com/carrental1.jpg",
+      "vehicle_types": ["Sedan", "SUV", "Luxury"],
+      "operating_hours": {
+        "Monday": "8:00 am - 6:00 pm",
+        "Tuesday": "8:00 am - 6:00 pm",
+        "Wednesday": "8:00 am - 6:00 pm",
+        "Thursday": "8:00 am - 6:00 pm",
+        "Friday": "8:00 am - 8:00 pm",
+        "Saturday": "9:00 am - 5:00 pm",
+        "Sunday": "10:00 am - 4:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "David",
+          "date": "May 8, 2023",
+          "rating": 4.7,
+          "comments": "I had a great experience renting a car from Wheels on Wheels. The process was smooth, and the vehicle was in excellent condition."
+        },
+        {
+          "name": "Emma",
+          "date": "May 1, 2023",
+          "rating": 4.4,
+          "comments": "The staff at Wheels on Wheels was friendly and helped me choose the perfect car for my road trip. I would rent from them again."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DriveSmart Rentals",
+      "location": "789 Oak Avenue, Auto City, USA",
+      "photo": "https://example.com/carrental2.jpg",
+      "vehicle_types": ["Compact", "Midsize", "Convertible"],
+      "operating_hours": {
+        "Monday": "9:00 am - 5:00 pm",
+        "Tuesday": "9:00 am - 5:00 pm",
+        "Wednesday": "9:00 am - 5:00 pm",
+        "Thursday": "9:00 am - 5:00 pm",
+        "Friday": "9:00 am - 7:00 pm",
+        "Saturday": "10:00 am - 4:00 pm",
+        "Sunday": "Closed"
+      },
+      "reviews": [
+        {
+          "name": "Sophie",
+          "date": "May 10, 2023",
+          "rating": 4.9,
+          "comments": "DriveSmart Rentals provided a reliable car for my weekend getaway. The prices were affordable, and the customer service was excellent."
+        },
+        {
+          "name": "Michael",
+          "date": "May 3, 2023",
+          "rating": 4.6,
+          "comments": "I had a smooth experience renting from DriveSmart Rentals. The vehicle was clean and performed well throughout my trip."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "RideEasy Rentals",
+      "location": "555 Pine Street, Driveville, USA",
+      "photo": "https://example.com/carrental4.jpg",
+      "vehicle_types": ["Minivan", "Sports Car", "Electric"],
+      "operating_hours": {
+        "Monday": "8:00 am - 6:00 pm",
+        "Tuesday": "8:00 am - 6:00 pm",
+        "Wednesday": "8:00 am - 6:00 pm",
+        "Thursday": "8:00 am - 6:00 pm",
+        "Friday": "8:00 am - 8:00 pm",
+        "Saturday": "9:00 am - 5:00 pm",
+        "Sunday": "Closed"
+      },
+      "reviews": [
+        {
+          "name": "Oliver",
+          "date": "May 12, 2023",
+          "rating": 4.8,
+          "comments": "RideEasy Rentals provided a comfortable and well-maintained minivan for our family trip. The staff was friendly and helpful."
+        },
+        {
+          "name": "Sophia",
+          "date": "May 6, 2023",
+          "rating": 4.2,
+          "comments": "I rented a sports car from RideEasy Rentals, and it was a thrilling experience. The car was in great condition, and the rental process was quick."
+        }
+      ]
+    },
+    {
+          "id": 4,
+          "name": "Speedy Wheels",
+          "location": "123 Main Street, Fastville, USA",
+          "photo": "https://example.com/carrental5.jpg",
+          "vehicle_types": ["Compact", "SUV", "Luxury"],
+          "operating_hours": {
+            "Monday": "9:00 am - 6:00 pm",
+            "Tuesday": "9:00 am - 6:00 pm",
+            "Wednesday": "9:00 am - 6:00 pm",
+            "Thursday": "9:00 am - 6:00 pm",
+            "Friday": "9:00 am - 8:00 pm",
+            "Saturday": "10:00 am - 5:00 pm",
+            "Sunday": "Closed"
+          },
+          "reviews": [
+            {
+              "name": "Emily",
+              "date": "May 9, 2023",
+              "rating": 4.6,
+              "comments": "Speedy Wheels offers a wide selection of cars to choose from. The rental process was straightforward, and the rates were reasonable."
+            },
+            {
+              "name": "Daniel",
+              "date": "May 2, 2023",
+              "rating": 4.3,
+              "comments": "I had a good experience renting a luxury car from Speedy Wheels. The vehicle was clean, and the staff was professional."
+            }
+          ]
+        },
+        {
+      "id": 5,
+      "name": "Rent-A-Wheel",
+      "location": "456 Elm Avenue, Autoville, USA",
+      "photo": "https://example.com/carrental7.jpg",
+      "vehicle_types": ["Sedan", "SUV", "Van"],
+      "operating_hours": {
+        "Monday": "8:00 am - 6:00 pm",
+        "Tuesday": "8:00 am - 6:00 pm",
+        "Wednesday": "8:00 am - 6:00 pm",
+        "Thursday": "8:00 am - 6:00 pm",
+        "Friday": "8:00 am - 8:00 pm",
+        "Saturday": "9:00 am - 5:00 pm",
+        "Sunday": "10:00 am - 4:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Sophia",
+          "date": "May 10, 2023",
+          "rating": 4.9,
+          "comments": "Rent-A-Wheel provided excellent customer service. The rental process was smooth, and the vehicles were in great condition."
+        },
+        {
+          "name": "Michael",
+          "date": "May 3, 2023",
+          "rating": 4.6,
+          "comments": "I had a pleasant experience renting from Rent-A-Wheel. The staff was friendly, and the rates were affordable."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "DriveRight Rentals",
+      "location": "789 Maple Street, Carville, USA",
+      "photo": "https://example.com/carrental8.jpg",
+      "vehicle_types": ["Compact", "Midsize", "SUV"],
+      "operating_hours": {
+        "Monday": "9:00 am - 5:00 pm",
+        "Tuesday": "9:00 am - 5:00 pm",
+        "Wednesday": "9:00 am - 5:00 pm",
+        "Thursday": "9:00 am - 5:00 pm",
+        "Friday": "9:00 am - 7:00 pm",
+        "Saturday": "10:00 am - 4:00 pm",
+        "Sunday": "Closed"
+      },
+      "reviews": [
+        {
+          "name": "Sophie",
+          "date": "May 10, 2023",
+          "rating": 4.9,
+          "comments": "DriveRight Rentals provided reliable cars at reasonable prices. The staff was knowledgeable and helpful throughout the rental process."
+        },
+        {
+          "name": "Michael",
+          "date": "May 3, 2023",
+          "rating": 4.6,
+          "comments": "I had a smooth experience renting from DriveRight Rentals. The vehicles were clean and well-maintained."
+        }
+      ]
+    },
+    {
+          "id": 7,
+          "name": "SwiftRide Rentals",
+          "location": "555 Elm Avenue, Speedville, USA",
+          "photo": "https://example.com/carrental10.jpg",
+          "vehicle_types": ["Luxury", "Sports Car", "SUV"],
+          "operating_hours": {
+            "Monday": "8:00 am - 6:00 pm",
+            "Tuesday": "8:00 am - 6:00 pm",
+            "Wednesday": "8:00 am - 6:00 pm",
+            "Thursday": "8:00 am - 6:00 pm",
+            "Friday": "8:00 am - 8:00 pm",
+            "Saturday": "9:00 am - 5:00 pm",
+            "Sunday": "10:00 am - 4:00 pm"
+          },
+          "reviews": [
+            {
+              "name": "Olivia",
+              "date": "May 12, 2023",
+              "rating": 4.8,
+              "comments": "I had a fantastic experience renting a luxury car from SwiftRide Rentals. The vehicle was clean, and the customer service was top-notch."
+            },
+            {
+              "name": "Noah",
+              "date": "May 6, 2023",
+              "rating": 4.5,
+              "comments": "SwiftRide Rentals provided me with a powerful sports car that enhanced my driving experience. I would highly recommend their services."
+            }
+          ]
+        },
+        {
+      "id": 8,
+      "name": "ZoomCar Rentals",
+      "location": "789 Pine Avenue, Speedville, USA",
+      "photo": "https://example.com/carrental11.jpg",
+      "vehicle_types": ["Compact", "SUV", "Van"],
+      "operating_hours": {
+        "Monday": "9:00 am - 6:00 pm",
+        "Tuesday": "9:00 am - 6:00 pm",
+        "Wednesday": "9:00 am - 6:00 pm",
+        "Thursday": "9:00 am - 6:00 pm",
+        "Friday": "9:00 am - 8:00 pm",
+        "Saturday": "10:00 am - 5:00 pm",
+        "Sunday": "Closed"
+      },
+      "reviews": [
+        {
+          "name": "Ethan",
+          "date": "May 14, 2023",
+          "rating": 4.7,
+          "comments": "ZoomCar Rentals provided me with a reliable and fuel-efficient compact car. The staff was friendly and the rental process was hassle-free."
+        },
+        {
+          "name": "Olivia",
+          "date": "May 8, 2023",
+          "rating": 4.2,
+          "comments": "I rented an SUV from ZoomCar Rentals for a family trip. The vehicle was spacious and comfortable, and it handled well on various terrains."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "SwiftDrive Rentals",
+      "location": "123 Oak Avenue, Drivetown, USA",
+      "photo": "https://example.com/carrental12.jpg",
+      "vehicle_types": ["Luxury", "Sports Car", "Convertible"],
+      "operating_hours": {
+        "Monday": "8:00 am - 6:00 pm",
+        "Tuesday": "8:00 am - 6:00 pm",
+        "Wednesday": "8:00 am - 6:00 pm",
+        "Thursday": "8:00 am - 6:00 pm",
+        "Friday": "8:00 am - 8:00 pm",
+        "Saturday": "9:00 am - 5:00 pm",
+        "Sunday": "10:00 am - 4:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Emma",
+          "date": "May 13, 2023",
+          "rating": 4.9,
+          "comments": "I had an amazing experience renting a luxury car from SwiftDrive Rentals. The vehicle was in pristine condition, and the service was impeccable."
+        },
+        {
+          "name": "Liam",
+          "date": "May 7, 2023",
+          "rating": 4.6,
+          "comments": "SwiftDrive Rentals exceeded my expectations. The sports car I rented was a thrill to drive, and the staff was friendly and professional."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "SuperDrive Rentals",
+      "location": "789 Maple Avenue, Carville, USA",
+      "photo": "https://example.com/carrental14.jpg",
+      "vehicle_types": ["Economy", "Compact", "Midsize"],
+      "operating_hours": {
+        "Monday": "9:00 am - 6:00 pm",
+        "Tuesday": "9:00 am - 6:00 pm",
+        "Wednesday": "9:00 am - 6:00 pm",
+        "Thursday": "9:00 am - 6:00 pm",
+        "Friday": "9:00 am - 8:00 pm",
+        "Saturday": "10:00 am - 4:00 pm",
+        "Sunday": "Closed"
+      },
+      "reviews": [
+        {
+          "name": "Ava",
+          "date": "May 15, 2023",
+          "rating": 4.5,
+          "comments": "SuperDrive Rentals provided me with a reliable and budget-friendly economy car. The rental process was quick and efficient."
+        },
+        {
+          "name": "Mia",
+          "date": "May 9, 2023",
+          "rating": 4.2,
+          "comments": "I rented a compact car from SuperDrive Rentals for my daily commute. The vehicle was fuel-efficient, and the staff was helpful."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "DrivePlus Rentals",
+      "location": "123 Oak Street, Vehicleville, USA",
+      "photo": "https://example.com/carrental15.jpg",
+      "vehicle_types": ["SUV", "Van", "Minivan"],
+      "operating_hours": {
+        "Monday": "8:00 am - 6:00 pm",
+        "Tuesday": "8:00 am - 6:00 pm",
+        "Wednesday": "8:00 am - 6:00 pm",
+        "Thursday": "8:00 am - 6:00 pm",
+        "Friday": "8:00 am - 8:00 pm",
+        "Saturday": "9:00 am - 5:00 pm",
+        "Sunday": "10:00 am - 4:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "William",
+          "date": "May 15, 2023",
+          "rating": 4.7,
+          "comments": "DrivePlus Rentals provided me with a spacious and comfortable SUV for my family trip. The vehicle was clean and well-maintained."
+        },
+        {
+          "name": "Harper",
+          "date": "May 8, 2023",
+          "rating": 4.4,
+          "comments": "I rented a van from DrivePlus Rentals to transport a large group. The vehicle was reliable and the service was satisfactory."
+        }
+      ]
+    }
+  ]
+}
